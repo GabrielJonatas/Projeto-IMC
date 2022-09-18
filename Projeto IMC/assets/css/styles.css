@@ -1,0 +1,91 @@
+:root{
+    --primary-color: rgb(3, 86, 43);
+    --primary-color-darker: rgb(20,100,255);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+}
+
+.form {
+    max-width: 640px;
+    margin: 1.5em auto;
+    background: rgb(255,255,255);
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+.next p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left {
+    text-align: left;
+    margin-left: 50px;
+    width: 55%;
+}
+
+.left1 {
+    text-align: left;
+    width: 55%;
+    margin-left: 15px;
+}
+
+.right {
+    width: 24%;
+}
+
+.peso {
+    display: block;
+    height: 3.5em;
+    width: 172%
+}
+
+.altura {
+    display: block;
+    height: 3.5em;
+    width: 172%;
+}
+
+#calcular {
+    display: block;
+    margin: 1em auto;
+    height: 3em;
+    width: 95%;
+    font-size: 1.2em;
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.resultadoValido{
+    text-align: center;
+    background: rgb(0,255,0);
+    padding: 10px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.resultadoInvalido {
+    text-align: center;
+    background: rgb(255,0,0);
+    padding: 10px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
