@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC - Cálculo de ìndice de Massa Corporal</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section>
+        <form class="form" action="" method="get">
+            <h1>Tabela IMC</h1>
+            <article class="next">
+                <p class="left"><strong>IMC</strong></p>
+                <p class="right"><strong>Resultado</strong></p>
+            </article>
+            <article class="next">
+                <p class="left">Menos do que 18,5</p>
+                <p class="right">Abaixo do peso</p>
+            </article>
+            <article class="next">
+                <p class="left">Entre 18,5 e 24,9</p>
+                <p class="right">Peso normal</p>
+            </article>
+            <article class="next">
+                <p class="left">Entre 25 e 29,9</p>
+                <p class="right">Sobrepeso</p>
+            </article>
+            <article class="next">
+                <p class="left">Entre 30 e 34,9</p>
+                <p class="right">Obesidade grau 1</p>
+            </article>
+            <article class="next">
+                <p class="left">Entre 35 e 39,9</p>
+                <p class="right">Obesidade grau 2</p>
+            </article>
+            <article class="next">
+                <p class="left">Mais do que 40</p>
+                <p class="right">Obesidade grau 3</p>
+            </article>
+            <h1>Calcule seu IMC</h1>
+            <p class="left1">Peso (kg):<input type="text" name="Peso" class="peso" required></p>
+            <p class="left1">Altura (m):<input type="text" name="Altura" class="altura" required></p>
+            <input type="submit" value="Calcular" id="calcular">
+            <div class="resultado"></div>
+        </form>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
